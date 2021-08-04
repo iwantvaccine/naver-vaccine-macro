@@ -1,7 +1,7 @@
 let sButtonText = "";
 let sButtonReload = undefined;
 let _tick;
-const RELOAD_INTERVAL_MILLISECONDS = 500;
+const RELOAD_INTERVAL_MILLISECONDS = 250;
 let hospitalList;
 let hospitalListStrCache;
 const _className = "_" + Math.random().toString(36).substring(2, 7);
